@@ -31,4 +31,6 @@ Open a command prompt
 12. cd to Xgboost\wrapper folder
 13. Type "python setup.py install"
 
-Fucking done!!!!!! OKay, now FTW!!!!
+Fucking done!!!!!! Okay, now let's conquer Kaggle together!!!!!!!!
+
+Reference: https://datanoord.com/2016/02/06/setup-xgboost-on-windows-python/
