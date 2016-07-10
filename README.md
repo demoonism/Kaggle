@@ -17,19 +17,21 @@ on Mac and Linux, it is literally just one line: pip install xgboost! but pip in
 Okay, After spending one day trying all solutions on the web, this is the only one that works, just do exactly following:
 
 1. Download Visual studio community 2013 (Must be 2013!!!!!!!This could take about 30 mins depends on ur network).
-2. Create a folder anywhere. ex. C:\Users\xians\Desktop\xgboost
-3. cd C:\Users\xians\Desktop\xgboost
-4. git clone https://github.com/dmlc/xgboost/tree/v0.40 
-5. go to C:\Users\xians\Desktop\xgboost\windows
-6. Open the .sln file with visual studio 2013
-7. This might prompt you to update libraries, click on “Yes”
-8. Click on “Debug” dropdown menu and select “Release” instead
-9. Click on “Win32” dropdown menu and select “x64” instead
-10. Click on “Build” and select “Build Solution”
-11. This will create the required files for xgboost installation
+2. Install Git
+3. Create a folder anywhere. ex. C:\Users\xians\Desktop\xgboost
+4. Open Git
+5. cd C:\Users\xians\Desktop\xgboost
+6. git clone https://github.com/dmlc/xgboost/tree/v0.40 
+7. go to C:\Users\xians\Desktop\xgboost\windows
+8. Open the .sln file with visual studio 2013
+9. This might prompt you to update libraries, click on “Yes”
+10. Click on “Debug” dropdown menu and select “Release” instead
+11. Click on “Win32” dropdown menu and select “x64” instead
+12. Click on “Build” and select “Build Solution”
+13. This will create the required files for xgboost installation
 Open a command prompt
-12. cd to Xgboost\wrapper folder
-13. Type "python setup.py install"
+14. cd to Xgboost\wrapper folder
+15. Type "python setup.py install"
 
 Fucking done!!!!!! Okay, now let's conquer Kaggle together!!!!!!!!
 
