@@ -36,3 +36,5 @@ Open a command prompt
 Fucking done!!!!!! Okay, now let's conquer Kaggle together!!!!!!!!
 
 Reference: https://datanoord.com/2016/02/06/setup-xgboost-on-windows-python/
+
+# Adding XGBoost model
