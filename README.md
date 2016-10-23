@@ -5,16 +5,16 @@
 1. Grupo Bimbo Inventory Demand
   - Data is relatively large, must set dtype in panda dataframe to save space.
   - Use incermental learning or online learing.
-  - how to fill in the missing data?
-  
+  - how to fill in the missing data? (simple averaging or KNN or simple regression)
+  - LR's built in feature selection not so much useful...
 
 ##How to install XGBoost!!!!
 
 Okay being honest, the first major obstale for becoming an Kaggle competition winner is installing XGBoost on windows!!!!!
 
-on Mac and Linux, it is literally just one line: pip install xgboost! but pip install is disabled for windows!!!!
+on Mac and Linux, it is literally just one line: pip install xgboost! but XGB's pip install is disabled for windows!!!!
 
-Okay, After spending one day trying all solutions on the web, this is the only one that works, just do exactly following:
+Okay, After spending one day trying all sorts of solutions, this is the only one that works, just do exactly following:
 
 1. Download Visual studio community 2013 (Must be 2013!!!!!!!This could take about 30 mins depends on ur network).
 2. Install Git
